@@ -1,10 +1,10 @@
 # 2023_sea_urchin_tenerife
 
-Parcels dispersal experiment of Sea Urchin larvea from Tenerife and from the African shelf regions.
-
 ## Description of the experiments
 
-_ADD BRIEF DESCRIPTION OF THE EXPERIMENTS (AS IN THE PAPER)?_
+A dispersal experiment of virtual sea urchin larvea from Tenerife and from the African shelf regions. The virtual particles are released around Tenerife in an area shallower than 500 meters and at depths ranging from 0 to 30 meters. The simulation releases 10,000 particles weekly over 10 years from 2007 onwards, totaling 5.2 million particles, to account for year-to-year variations. Each virtual particle has a lifetime of 181 days, during which the abundance, geographical spread and distance to the release zone is tracked for particles that reach areas with less than 500 meters depth on the African shelf. In order to simulate larvae without chloroplasts, only the first 102 days after release are considered. The trajectories are saved daily and are weighted each day by a factor of $e^{-Mt}$ in the heatmaps using the instantaneous rate model to replicate mortality. The corresponding mortality $M$ for simulating particles with or without funtctional chloroplasts was used.
+
+A second dispersal experiment is devised to simulate subsequent generations and spread along the African shelf and possible cross-Atlantic connections. A total of 2 million particles are evenly distributed on the shelf from 28°N to 10°S and released over 10 years (2007-1016). Multiple generations are simulated by using the geographical spread on the shelf of the previous generation as the release zone for the current generation. This was repeated until particles reached the southernmost area of Arbacia lixula’s range (red area, Fig. S17), where trans-Atlantic particles could be found (Fig. S21). This was conducted separately for particles with a lifespan of 181 days (with functional chloroplasts) and 102 days (without functional chloroplasts). 
 
 ## Contents of this repository
 
