@@ -16,6 +16,8 @@ All dispersal simulations have been performed as definded in the following Jupyt
 
 - [notebooks/release_larvae_tenerife.ipynb](notebooks/release_larvae_african_shelf.ipynb) was executed using [jobscripts/NOT_SURE_THIS_IS_CONSISTENT_YET.sh](jobscripts/NOT_SURE_THIS_IS_CONSISTENT_YET.sh)
 
+All simulations were performed in the container image `quay.io/willirath/parcels-container:2022.07.14-801fbe4` defined in https://github.com/geomar-od-lagrange/parcels-container and available for download on https://quay.io/repository/willirath/parcels-container.
+
 ### Figures
 
 The following Jupyter Notebooks contain all code used for producing the corresponding figures:
