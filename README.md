@@ -12,9 +12,9 @@ A second dispersal experiment is devised to simulate subsequent generations and 
 
 All dispersal simulations have been performed as definded in the following Jupyter Notebooks:
 
-- [notebooks/release_larvae_african_shelf.ipynb](notebooks/release_larvae_african_shelf.ipynb) was executed using [jobscripts/NOT_SURE_THIS_IS_CONSISTENT_YET.sh](jobscripts/NOT_SURE_THIS_IS_CONSISTENT_YET.sh)
+- [notebooks/release_larvae_tenerife.ipynb](notebooks/release_larvae_tenerife.ipynb) was executed using [jobscripts/run_release_tenerife.sh](jobscripts/run_release_tenerife.sh)
 
-- [notebooks/release_larvae_tenerife.ipynb](notebooks/release_larvae_african_shelf.ipynb) was executed using [jobscripts/NOT_SURE_THIS_IS_CONSISTENT_YET.sh](jobscripts/NOT_SURE_THIS_IS_CONSISTENT_YET.sh)
+- [notebooks/release_larvae_african_shelf.ipynb](notebooks/release_larvae_african_shelf.ipynb) was executed using [jobscripts/run_release_african_shelf.sh](jobscripts/run_release_african_shelf.sh)
 
 All simulations were performed in the container image `quay.io/willirath/parcels-container:2022.07.14-801fbe4` defined in https://github.com/geomar-od-lagrange/parcels-container and available for download on https://quay.io/repository/willirath/parcels-container.
 
@@ -29,21 +29,26 @@ The following Jupyter Notebooks contain all code used for producing the correspo
 
 ### Release and target zones
 
-There are CSV files containing the release zones and the target zone used in the experiment:
+CSV files containing the release zone and the target zone used in the Tenerife release experiment:
 ```
 data/release_zone_exterior500.csv
 data/release_zone_interior.csv
-data/release_zone_shelf_10N_7E.csv
-data/release_zone_shelf_20N_10N.csv
-data/release_zone_shelf_30N_20N.csv
-data/release_zone_shelf_7E_10S.csv
 data/target_zone_shelf.csv
 ```
 
-There are netCDF files _WHICH I'M NOT SURE HOW TO DESCRIBE_:
+CSV files containing the release zones used in the African Shelf release experiment:
+```
+data/release_zone_shelf_30N_20N.csv 
+data/release_zone_shelf_20N_10N.csv 
+data/release_zone_shelf_10N_7E.csv  
+data/release_zone_shelf_7E_10S.csv 
+```
+
+African shelf release zones as NetCDF:
 ```
 data/shelf_zone1.nc
 data/shelf_zone2.nc
 data/shelf_zone3.nc
 data/shelf_zone4.nc
 ```
+
