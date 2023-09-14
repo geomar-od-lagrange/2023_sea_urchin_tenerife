@@ -36,12 +36,13 @@ data/release_zone_interior.csv
 data/target_zone_shelf.csv
 ```
 
-CSV files containing the release zones used in the African Shelf release experiment:
+CSV files containing the release zones and target zone used in the African Shelf release experiment:
 ```
 data/release_zone_shelf_30N_20N.csv 
 data/release_zone_shelf_20N_10N.csv 
 data/release_zone_shelf_10N_7E.csv  
-data/release_zone_shelf_7E_10S.csv 
+data/release_zone_shelf_7E_10S.csv
+data/target_zone_brazil.csv
 ```
 
 African shelf release zones as NetCDF:
