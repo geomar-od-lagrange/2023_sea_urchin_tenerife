@@ -24,7 +24,7 @@ for year in 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016; do
         srun --ntasks=1 --exclusive singularity run -B /sfs -B /gxfs_work1 -B $PWD:/work --pwd /work parcels-container_2022.07.14-801fbe4.sif bash -c \
                 ". /opt/conda/etc/profile.d/conda.sh && conda activate base \
                 && papermill --cwd notebooks \
-                notebooks/release_larvae_weekly.ipynb \
+                notebooks/release_larvae_tenerife.ipynb \
                 notebooks_executed/exec_release_larvae_1stweekly_${year}_w${week}.ipynb \
                 -p RNG_seed ${RNG_seed} \
                 -p start_year ${year} \

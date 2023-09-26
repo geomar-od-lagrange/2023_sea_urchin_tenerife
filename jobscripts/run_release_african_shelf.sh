@@ -27,7 +27,7 @@ for year in {2007..2016}; do
             srun --ntasks=1 --exclusive singularity run -B /sfs -B /gxfs_work1 -B $PWD:/work --pwd /work parcels-container_2022.07.14-801fbe4.sif bash -c \
                 ". /opt/conda/etc/profile.d/conda.sh && conda activate base \
                 && papermill --cwd notebooks \
-                notebooks/release_larvae_2nd_gen.ipynb \
+                notebooks/release_larvae_african_shelf.ipynb \
                 notebooks_executed/exec_release_larvae_2nd_gen_zone${release_zone_nr}_${year}_w${week}.ipynb \
                 -p RNG_seed ${RNG_seed} \
                 -p release_zone_nr ${release_zone_nr} \
