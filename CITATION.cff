@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Knoop"
+  given-names: "Thorben C."
+- family-names: "Rath"
+  given-names: "Willi"
+  orcid: "https://orcid.org/0000-0003-1951-8494"
+title: "2023_sea_urchin_tenerife"
+url: "https://github.com/geomar-od-lagrange/2023_sea_urchin_tenerife"
+# version and doi are completed by Zenodo automatically, do not provide here.
