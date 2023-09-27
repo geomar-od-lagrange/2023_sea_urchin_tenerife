@@ -6,6 +6,8 @@ A dispersal experiment of virtual sea urchin larvea from Tenerife and from the A
 
 A second dispersal experiment is devised to simulate subsequent generations and spread along the African shelf and possible cross-Atlantic connections. A total of 2 million particles are evenly distributed on the shelf from 28°N to 10°S and released over 10 years (2007-1016). Multiple generations are simulated by using the geographical spread on the shelf of the previous generation as the release zone for the current generation. This was repeated until particles reached the southernmost area of Arbacia lixula’s range (red area, Fig. S17), where trans-Atlantic particles could be found (Fig. S21). This was conducted separately for particles with a lifespan of 181 days (with functional chloroplasts) and 102 days (without functional chloroplasts). 
 
+In order to examine possible connections from the coast of Brazil back to the Macaronesian archipelagos, a third experiment is devised. 1.2 million particles are released over 10 years (2007-2016) from the area on the South American shelf that can be reached by cross-Atlantic particles from the second dispersal experiment. The lifespan of the particles is set to 4 years as a way to examine the timespan needed to reach each archipelago without the limitation of mortality.
+
 ## Contents of this repository
 
 ### Dispersal simulations
