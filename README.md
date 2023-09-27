@@ -16,6 +16,8 @@ All dispersal simulations have been performed as definded in the following Jupyt
 
 - [notebooks/release_larvae_african_shelf.ipynb](notebooks/release_larvae_african_shelf.ipynb) was executed using [jobscripts/run_release_african_shelf.sh](jobscripts/run_release_african_shelf.sh)
 
+- [notebooks/release_larvae_brazil.ipynb](notebooks/release_larvae_brazil.ipynb) was executed using [jobscripts/run_release_brazil.sh](jobscripts/run_release_brazil.sh)
+
 All simulations were performed in the container image `quay.io/willirath/parcels-container:2022.07.14-801fbe4` defined in https://github.com/geomar-od-lagrange/parcels-container and available for download on https://quay.io/repository/willirath/parcels-container.
 
 ### Figures
@@ -26,6 +28,7 @@ The following Jupyter Notebooks contain all code used for producing the correspo
 - [notebooks/plot_S14_S18.ipynb](notebooks/plot_S14_S18.ipynb)
 - [notebooks/plot_S17.ipynb](notebooks/plot_S17.ipynb)
 - [notebooks/plot_S19_S20_S21.ipynb](notebooks/plot_S19_S20_S21.ipynb)
+- [notebooks/plot_S22_S23.ipynb](notebooks/plot_S22_S23.ipynb)
 
 ### Release and target zones
 
@@ -43,6 +46,10 @@ data/release_zone_shelf_20N_10N.csv
 data/release_zone_shelf_10N_7E.csv  
 data/release_zone_shelf_7E_10S.csv
 data/target_zone_brazil.csv
+```
+CSV files containing the release zones Brazil release experiment:
+```
+data/release_zone_brazil.csv
 ```
 
 African shelf release zones as NetCDF:
